@@ -1,9 +1,9 @@
-import React from 'react' // eslint-disable-line
+import React from 'react'
 
 const Francesca = () => {
   return (
     <div>
-      <h1>Sobre mi</h1>
+      
     </div>
   )
 }

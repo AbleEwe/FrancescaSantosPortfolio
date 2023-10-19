@@ -1,0 +1,13 @@
+.slide-container {
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.slide-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 1000px;
+    z-index: 1;
+}

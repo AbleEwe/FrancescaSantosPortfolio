@@ -4,6 +4,7 @@ const Sesiones = () => {
   return (
     <div>
       <h1>Sesiones</h1>
+      
     </div>
   )
 }

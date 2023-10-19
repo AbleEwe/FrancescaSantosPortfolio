@@ -1,10 +1,32 @@
+@font-face {
+  font-family: 'ButlerLight';
+  src: url('./Fonts/Butler-Light.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ButlerLight';
+  src: url('./Fonts/Butler-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ButlerLight';
+  src: url('./Fonts/Butler.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 .App{
-  background-color: #fefefe;
   height: 100vh;
   width: 100%;
+  text-align: center;
+  font-family: 'ButlerLight';
+}
+body{
+  background-color: #efefef;
 }

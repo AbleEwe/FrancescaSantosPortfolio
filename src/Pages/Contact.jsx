@@ -1,11 +1,11 @@
-import React from 'react'  // eslint-disable-line
+import React from 'react' //eslint-disable-line
 
-const Contacto = () => {
+const Contact = () => {
   return (
     <div>
-      <h1>Contacto</h1>
+      
     </div>
   )
 }
 
-export default Contacto
+export default Contact
