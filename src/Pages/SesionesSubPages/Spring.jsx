@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Francesca = () => {
+const Spring = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Francesca = () => {
   )
 }
 
-export default Francesca
+export default Spring

@@ -8,6 +8,8 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 1000px;
+    background-position: center center;
+    height: 100vh;
+    width: 98.5vw;
     z-index: 1;
 }

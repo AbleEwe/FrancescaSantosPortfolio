@@ -1,16 +1,16 @@
 import React from 'react' //eslint-disable-line
 import "react-slideshow-image/dist/styles.css"
 import { Fade, Zoom, Slide } from "react-slideshow-image" //eslint-disable-line
-import './BasicSlider.css'
+import './Styles/BasicSlider.css'
 
 
 const imageUrl = [
     {
-        url: '/Images/FotosCarrusel/IMG_4968-Editar.jpg',
+        url: '/Images/FotosCarrusel/Familiar-01.jpg',
         caption: 'Foto 1'
     },
     {
-        url: '/Images/FotosCarrusel/IMG_0711-Editar.jpg',
+        url: '/Images/FotosCarrusel/Maternidad-01.jpg',
         caption: 'Foto 2'
     },
     {

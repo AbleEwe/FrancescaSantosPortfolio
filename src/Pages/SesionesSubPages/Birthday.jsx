@@ -1,6 +1,6 @@
 import React from 'react' //eslint-disable-line
 
-const Contact = () => {
+const Birthday = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Birthday

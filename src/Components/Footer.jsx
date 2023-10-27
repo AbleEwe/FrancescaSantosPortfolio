@@ -1,5 +1,5 @@
 import React from 'react' //eslint-disable-line
-import "./Footer.css"
+import "./Styles/Footer.css"
 import { BsFacebook, BsInstagram, BsWhatsapp } from "react-icons/bs"
 
 const Footer = () => {
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className='line'></div>
         </div>
         <div className='copyright'>
-            <img src='./Images/Iso-Color.png'/>
+            <img src='./Images/Iso-Color.png' alt='logo foto'/>
             <p>
                 &copy;{new Date().getFullYear()} Francesca Santos Foto
             </p>

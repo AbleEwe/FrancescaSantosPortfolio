@@ -1,0 +1,29 @@
+.container {
+    width: 90%;
+    margin: 20px auto;
+    columns: 3;
+    gap: 20px;
+}
+
+.container .box {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.container .box img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        columns: 2;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        columns: 1;
+    }
+}

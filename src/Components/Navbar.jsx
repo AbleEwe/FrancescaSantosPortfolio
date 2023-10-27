@@ -1,7 +1,8 @@
 import React, { useState } from 'react' // eslint-disable-line
 import  {Link, NavLink} from 'react-router-dom'
-import "./Navbar.css"
+import  "./Styles/Navbar.css"
 import DropdownMenu from './DropdownMenu' // eslint-disable-line
+import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
     const [navBar, setNavbar] = useState(false);
 
     const changeBackground = () => {
-        if (window.scrollY >= 80) {
+        if (window.scrollY >= 100) {
             setNavbar(true)
         }   else {
             setNavbar(false)
@@ -34,17 +35,17 @@ const Navbar = () => {
                     <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/sesiones">Sesiones</NavLink>
-                    
+                    <ScrollLink to='francesca-santos' smooth={true} offset={-250}>Francesca Santos</ScrollLink>
                 </li>
                 <li>
-                    <NavLink to="/francesca-santos">Francesca Santos</NavLink>
+                    <ScrollLink to='contact' smooth={true} offset={-250}>Contacto</ScrollLink>
+                </li>
+                <li onMouseEnter={() => setDropdown(true)} onMouseLeave={() => setDropdown(false)}>
+                    <NavLink to="/sesiones">Sesiones</NavLink>
+                    {dropDown && <DropdownMenu/>}
                 </li>
                 <li>
                     <NavLink to="/ediciones">Ediciones</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/contacto">Contacto</NavLink>
                 </li>
             </ul>          
         </nav>
