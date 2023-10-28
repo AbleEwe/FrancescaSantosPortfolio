@@ -1,14 +1,13 @@
-import React from 'react' //eslint-disable-line
 import SesionsLayout from '../../Components/SesionsBackground'
 import PhotosLayout from '../../Components/PhotosLayout'
 import ceremonies from '../../Const/PicturesLayoutConst'
-import pageData from '../../Const/SesionsConst'
+import { ceremoniesData } from '../../Const/SesionsConst'
 
 
 const Ceremonies = () => {
   return (
     <div>
-      <SesionsLayout photos={pageData}/>
+      <SesionsLayout photos={ceremoniesData}/>
       <PhotosLayout pictures={ceremonies}/>
     </div>
   )

@@ -1,15 +1,16 @@
 import SesionsLayout from '../../Components/SesionsBackground'
 import PhotosLayout from '../../Components/PhotosLayout'
-import ceremonies from '../../Const/PicturesLayoutConst'
-import { ceremoniesData } from '../../Const/SesionsConst'
 
-const Graduation = () => {
+import ceremonies from '../../Const/PicturesLayoutConst'
+import { otonoData } from '../../Const/SesionsConst'
+
+const Autumn = () => {
   return (
     <div>
-      <SesionsLayout photos={ceremoniesData}/>
+      <SesionsLayout photos={otonoData}/>
       <PhotosLayout pictures={ceremonies}/>
     </div>
   )
 }
 
-export default Graduation
+export default Autumn

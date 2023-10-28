@@ -1,12 +1,15 @@
 
 .submenu {
     width: 200px;
+    height: 300px;
     position: absolute;
     list-style: none;
     text-align: start;
     z-index: 999;
     flex-direction: column;
-    top: 12vh;
+    top: 7vh;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .submenu li {

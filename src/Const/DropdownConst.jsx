@@ -1,47 +1,47 @@
 const dropDownItems = [
     {
         title: 'Bodas',
-        path: "/sesiones/bodas",
+        path: "/bodas",
         cName: "dropDownLink"
     },
     {
         title: 'Cumpleaños',
-        path: "/sesiones/cumpleanos",
+        path: "/cumpleanos",
         cName: "dropDownLink"
     },
     {
         title: 'Documental',
-        path: "/sesiones/documental",
+        path: "/documental",
         cName: "dropDownLink"
     },
     {
         title: 'Familiar',
-        path: "/sesiones/familiar",
+        path: "/familiar",
         cName: "dropDownLink"
     },
     {
         title: 'Graduaciones',
-        path: "/sesiones/graduaciones",
+        path: "/graduaciones",
         cName: "dropDownLink"
     },
     {
         title: 'Infantil',
-        path: "/sesiones/infantil",
+        path: "/infantil",
         cName: "dropDownLink"
     },
     {
         title: 'Maternidad',
-        path: "/sesiones/maternidad",
+        path: "/maternidad",
         cName: "dropDownLink"
     },
     {
         title: 'Montajes',
-        path: "/sesiones/montajes",
+        path: "/montajes",
         cName: "dropDownLink"
     },
     {
         title: 'Otoño',
-        path: "/sesiones/otono",
+        path: "/otono",
         cName: "dropDownLink"
     },
     {
@@ -51,12 +51,12 @@ const dropDownItems = [
     },
     {
         title: 'Producto',
-        path: "/sesiones/producto",
+        path: "/producto",
         cName: "dropDownLink"
     },
     {
         title: 'Retrato',
-        path: "/sesiones/retrato",
+        path: "/retrato",
         cName: "dropDownLink"
     }
 ];

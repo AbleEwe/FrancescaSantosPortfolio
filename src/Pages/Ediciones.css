@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 98.5vw;
+    width: 99.2vw;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -37,7 +37,7 @@
 
 
 .needed {
-    background-color: var(--rosita);
+    background-color: rgba(177, 149, 142, 0.7);
     width: 30%;
     border-radius: 5px;
 }
@@ -189,7 +189,7 @@
 }
 
 #image-footer {
-    width: 98vw;
+    width: 99.2vw;
     height: 400px;
     object-fit: cover;
     margin-bottom: 15vh;

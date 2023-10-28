@@ -1,11 +1,8 @@
 import './App.css'
 import Navbar from './Components/Navbar'
 import { Route, Routes } from 'react-router-dom';
-import Home from "./Pages/Home"
-import Sesiones from "./Pages/Sesiones"
-import Ediciones from './Pages/Ediciones';
+import { Home, Ediciones, Sesiones, Ceremonies, Wedings, Documental, Autumn, Birthday, Familiar, Graduation, Maternity, Portrait, Product, Setups, Kids } from './Pages';
 import Footer from './Components/Footer';
-import CeremoniesPage from './Pages/SesionesSubPages/Ceremonies.jsx';
 import BackToTopButton from './Components/BackToTopButton';
 import ScrollToTop from './Components/ScrollToTop';
 
@@ -20,7 +17,18 @@ function App() {
         <Route path="/" element={<Home/>}/> 
         <Route path='/ediciones' element={<Ediciones/>}/>
         <Route path='/sesiones' element={<Sesiones/>}/>
-        <Route path='/ceremonias' element={<CeremoniesPage/>}/>
+        <Route path='/ceremonias' element={<Ceremonies/>}/>
+        <Route path='/bodas' element={<Wedings/>}/>
+        <Route path='/documental' element={<Documental/>}/>
+        <Route path='/otono' element={<Autumn/>}/>
+        <Route path='/cumpleanos' element={<Birthday/>}/>
+        <Route path='/familiar' element={<Familiar/>}/>
+        <Route path='/graduaciones' element={<Graduation/>}/>
+        <Route path='/maternidad' element={<Maternity/>}/>
+        <Route path='/retrato' element={<Portrait/>}/>
+        <Route path='/producto' element={<Product/>}/>
+        <Route path='/montajes' element={<Setups/>}/>
+        <Route path='/infantil' element={<Kids/>}/>
       </Routes>
       <Footer/>
       <BackToTopButton/>

@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div>
         <nav className={navBar ? "navbar-active" : "navbar"}>
-            <div className='logo-container'><Link to="/"><img src="\Images\LogoFStranspBlanco.png" alt="Logo Francesca Santos"/></Link></div>
+            <div className='logo-container'><Link to="/"><img src="\Images\Logos\LogoFStranspBlanco.png" alt="Logo Francesca Santos"/></Link></div>
                 <div className='menu' onClick={() => {
                     setMenuOpen(!menuOpen)
                 }}>

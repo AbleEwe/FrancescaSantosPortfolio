@@ -7,12 +7,13 @@ nav {
     align-items: center;
     position: fixed;
     width: 100%;
+    height: 10vh;
     justify-content: space-between;
     background-color: transparent;
     top: 0;
     left: 0;
     z-index: 999;
-    transition: .5s;
+    transition: .5s ease;
 }
 .navbar-active{
     background-color: var(--rosita);
@@ -25,7 +26,6 @@ nav {
 nav img{
     width: auto;
     height: 100%;
-    max-height: 15vh;
 }
 nav ul {
     display: flex;
@@ -37,9 +37,9 @@ nav li{
 nav li a{
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    padding: 0 1rem;
     margin: 0 auto;
-    font-size: 1.5em;
+    font-size: 1.4rem;
     font-family: 'ButlerLight';
     border-radius: 5px;
     font-weight: 200;

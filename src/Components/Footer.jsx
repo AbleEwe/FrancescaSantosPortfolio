@@ -19,7 +19,7 @@ const Footer = () => {
             <div className='line'></div>
         </div>
         <div className='copyright'>
-            <img src='./Images/Iso-Color.png' alt='logo foto'/>
+            <img src='./Images/Logos/Iso-Color.png' alt='logo foto'/>
             <p>
                 &copy;{new Date().getFullYear()} Francesca Santos Foto
             </p>
