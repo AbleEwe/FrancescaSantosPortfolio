@@ -1,25 +1,17 @@
 import { motion } from 'framer-motion'
 
-const pageTransition = (OgComponent) => {
+const PageTransition = ({ children }) => { //eslint-disable-line
   return (
-    <div>
-        <OgComponent/>
-            <motion.div 
-            className='slide-in'
-            initial={{ scaleY: 0 }}
-            animate={{ scaleY: 0} }
-            exit={{ scaleY: 1 }}
-            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-            />
-            <motion.div
-            className='slide-in'
-            initial={{ scaleY: 0 }}
-            animate={{ scaleY: 0} }
-            exit={{ scaleY: 1 }}
-            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-            />
-    </div>
-  )
-}
+    <motion.div
+      className='slide-in'
+      initial={{ filter: 'blur(10px)', opacity: 0 }}
+      animate={{ filter: 'blur(0)', opacity: 1 }}
+      exit={{ filter: 'blur(10px)', opacity: 0 }}
+      transition={{ duration: .4, ease: [0.22, 1, 0.36, 1] }}
+    >
+      {children}
+    </motion.div>
+  );
+};
 
-export default pageTransition
+export default PageTransition;

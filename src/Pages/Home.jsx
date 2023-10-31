@@ -3,9 +3,11 @@ import BasicSlider from '../Components/BasicSlider'
 import './Home.css'
 import imgSesion from '../Const/HomeImagesConst'
 import { NavLink } from 'react-router-dom'
+import PageTransition from '../Components/PageTransition'
 
 const Home = () => {
   return (
+    <PageTransition>
     <div className='home-wrap'>
       <BasicSlider/>
       <h1>SESIONES</h1> 
@@ -49,6 +51,7 @@ const Home = () => {
           </form>
         </div>
     </div>
+    </PageTransition>
   )
 }
 

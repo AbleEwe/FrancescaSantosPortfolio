@@ -1,6 +1,6 @@
 .sesions-page-wrap {
     width: 90%;
-    margin: 10vh auto 10vh auto;
+    margin: 3vh auto 10vh auto;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     height: auto;
-    margin: 20px auto;
+    margin: 0 auto;
     padding-top: 20px;
     gap: 10px;
 }
@@ -32,6 +32,7 @@
     display: block;
     object-fit: cover;
     transition: all 0.3s ease;
+    border-radius: 5px;
   }
 
 .IMG-sesions span {
