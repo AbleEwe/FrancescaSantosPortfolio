@@ -35,7 +35,7 @@ const Navbar = () => {
                     <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                    <ScrollLink to='francesca-santos' smooth={true} offset={-250}>Francesca Santos</ScrollLink>
+                    <ScrollLink to='francesca-santos' smooth={true} offset={-150}>Francesca Santos</ScrollLink>
                 </li>
                 <li>
                     <ScrollLink to='contact' smooth={true} offset={-250}>Contacto</ScrollLink>

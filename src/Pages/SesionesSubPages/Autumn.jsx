@@ -1,6 +1,7 @@
 import SesionsLayout from '../../Components/SesionsBackground'
 import PhotosLayout from '../../Components/PhotosLayout'
-import ceremonies from '../../Const/PicturesLayoutConst'
+
+import autumnData from '../../Const/ConstSubPages/AutumnData'
 import { otonoData } from '../../Const/SesionsConst'
 import PageTransition from '../../Components/PageTransition'
 
@@ -9,7 +10,7 @@ const Autumn = () => {
     <PageTransition>
       <div>
         <SesionsLayout photos={otonoData}/>
-        <PhotosLayout pictures={ceremonies}/>
+        <PhotosLayout pictures={autumnData}/>c
       </div>
     </PageTransition>
   )

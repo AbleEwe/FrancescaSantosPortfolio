@@ -27,7 +27,7 @@ const imgSesion = [
     {
       Url: "/Images/FotosSesiones/Retrato.jpg",
       Caption: "Retratos",
-      path: '/retratos'
+      path: '/retrato'
     }
   ]
   export default imgSesion;

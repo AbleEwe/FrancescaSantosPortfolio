@@ -7,7 +7,7 @@ import ScrollToTop from './Components/ScrollToTop';
 //router
 import { Route, Routes } from 'react-router-dom';
 //pages
-import { Home, Ediciones, Sesiones, Ceremonies, Wedings, Documental, Autumn, Birthday, Familiar, Graduation, Maternity, Portrait, Product, Setups, Kids } from './Pages';
+import { Home, Ediciones, Sesiones, Ceremonies, Wedings, Documental, Autumn, Birthday, Familiar, Graduation, Maternity, Portrait, Product, Setups, Kids, KidsExterior, KidsInterior, KidsParty } from './Pages';
 
 import { AnimatePresence } from 'framer-motion'
 import { useLocation } from 'react-router-dom';
@@ -36,6 +36,9 @@ function App() {
           <Route path='/producto' element={<Product/>}/>
           <Route path='/montajes' element={<Setups/>}/>
           <Route path='/infantil' element={<Kids/>}/>
+          <Route path='/infantil-exterior' element={<KidsExterior/>}/>
+          <Route path='/infantil-interior' element={<KidsInterior/>}/>
+          <Route path='/fiesta-infantil' element={<KidsParty/>}/>
         </Routes>
       </AnimatePresence>
       <Footer/>

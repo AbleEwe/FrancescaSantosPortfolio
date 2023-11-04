@@ -1,6 +1,7 @@
 import SesionsLayout from '../../Components/SesionsBackground'
 import PhotosLayout from '../../Components/PhotosLayout'
-import ceremonies from '../../Const/PicturesLayoutConst'
+
+import ceremonies from '../../Const/ConstSubPages/CeremoniesLayoutConst'
 import { ceremoniesData } from '../../Const/SesionsConst'
 import PageTransition from '../../Components/PageTransition'
 

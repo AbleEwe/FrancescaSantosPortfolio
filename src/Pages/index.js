@@ -12,6 +12,9 @@ import Maternity from "./SesionesSubPages/Maternity";
 import Portrait from "./SesionesSubPages/Portrait";
 import Product from "./SesionesSubPages/Product";
 import Setups from "./SesionesSubPages/Set-ups";
-import Kids from "./SesionesSubPages/Kids/Kids";
+import Kids from "./SesionesSubPages/Kids";
+import KidsExterior from "./SesionesSubPages/KidsExterior";
+import KidsInterior from "./SesionesSubPages/KidsInterior";
+import KidsParty from "./SesionesSubPages/KidsParty";
 
-export { Home, Ediciones, Sesiones, Ceremonies, Wedings, Documental, Autumn, Birthday, Familiar, Graduation, Maternity, Portrait, Product, Setups, Kids }
+export { Home, Ediciones, Sesiones, Ceremonies, Wedings, Documental, Autumn, Birthday, Familiar, Graduation, Maternity, Portrait, Product, Setups, Kids, KidsExterior, KidsInterior, KidsParty }

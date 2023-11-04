@@ -36,7 +36,16 @@ function BackToTopButton () {
             color: '#fff',
             opacity: '.5',
             border: '1px solid black',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            transition: "transform 0.2s, color 0.2s",
+        }}
+        onMouseEnter={(e) => {
+            e.currentTarget.style.transform = "scale(0.9)";
+            e.currentTarget.querySelector("svg").style.color = "lightgray";
+        }}
+        onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "scale(1)";
+            e.currentTarget.querySelector("svg").style.color = "";
         }}
         onClick={scrollUp}>
             <FaArrowUpLong size="1.5rem"/>

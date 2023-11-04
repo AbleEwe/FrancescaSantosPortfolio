@@ -3,12 +3,17 @@ import sesionesIMG from '../Const/SesionesPageConst'
 import './Sesiones.css'
 import { NavLink } from 'react-router-dom'
 import PageTransition from '../Components/PageTransition'
+import { motion } from 'framer-motion'
 
 const Sesiones = () => {
   return (
     <PageTransition>
       <div className='sesions-page-wrap'>
-        <h1>Escoge tu sesión</h1>
+        <motion.h1
+        initial={{ y: '20%' }} 
+        animate={{ y: 0 }} 
+        transition={{ duration: 0.3 }} 
+        >Escoge tu sesión</motion.h1>
         <div className='sesions-landing'>
           {sesionesIMG.map((img, index) => (
             <div className='IMG-sesions' key={index}>

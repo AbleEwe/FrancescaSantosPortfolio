@@ -1,15 +1,16 @@
 import SesionsLayout from '../../Components/SesionsBackground'
 import PhotosLayout from '../../Components/PhotosLayout'
-import ceremonies from '../../Const/PicturesLayoutConst'
-import { ceremoniesData } from '../../Const/SesionsConst'
+
+import dataFamiliar from '../../Const/ConstSubPages/FamiliarData'
+import { familiarData } from '../../Const/SesionsConst'
 import PageTransition from '../../Components/PageTransition'
 
 const Familiar = () => {
   return (
     <PageTransition>
       <div>
-        <SesionsLayout photos={ceremoniesData}/>
-        <PhotosLayout pictures={ceremonies}/>
+        <SesionsLayout photos={familiarData}/>
+        <PhotosLayout pictures={dataFamiliar}/>
       </div>
     </PageTransition>
   )
