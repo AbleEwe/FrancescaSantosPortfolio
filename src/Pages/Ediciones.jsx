@@ -10,8 +10,8 @@ const Ediciones = () => {
     target: ref,
     offset: ["0 1", "1.33 1"]
   });
-  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.3, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.3, 1]);
   const textVariants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0, transition: { staggerChildren: 1 } },
@@ -90,7 +90,7 @@ const Ediciones = () => {
              opacity: opacityProgress
            }}
           className='package-event perPackage'>
-            <h2>Por paquete</h2>
+            <h2>Por evento</h2>
               <p>Lightroom 150 fotos ......$800</p>
               <p>Lightroom 300 fotos ......$1000</p>
               <p>Se entrega en una semana según mi carga de trabajo</p>
@@ -104,7 +104,7 @@ const Ediciones = () => {
              opacity: opacityProgress
            }}
           className='package-event perEvent'>
-          <h2>Por Evento</h2>
+          <h2>Por Paquete</h2>
             <div className='packages'>
               <span>BÁSICO</span>
               <p>5-10  fotos ....$80c/u</p>

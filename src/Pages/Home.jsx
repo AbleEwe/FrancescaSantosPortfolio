@@ -50,6 +50,7 @@ const Home = () => {
         <div className='about-me-text'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit gravida rutrum quisque non. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Amet facilisis magna etiam tempor. Et malesuada fames ac turpis. Amet volutpat consequat mauris nunc congue nisi vitae. Consequat id porta nibh venenatis cras sed felis eget. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. 
         </p>
+        <img src='./Images/sobre-mi.jpg'/>
         </div>
       </div>
       <h2>¿En qué te podemos ayudar?</h2>

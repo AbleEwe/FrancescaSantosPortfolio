@@ -2,12 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Francesca Santos</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <script type="module">
+
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyDUOid30PXHXD7pgZelXmaB39W14Olots8",
+        authDomain: "francesca-santos.firebaseapp.com",
+        projectId: "francesca-santos",
+        storageBucket: "francesca-santos.appspot.com",
+        messagingSenderId: "845732853732",
+        appId: "1:845732853732:web:7b0b307a0f8522f1e7f9f1",
+        measurementId: "G-LZ44R64LHE"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>

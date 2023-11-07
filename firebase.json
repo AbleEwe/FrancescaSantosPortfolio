@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -10,7 +10,12 @@
       {
         "source": "**",
         "destination": "/index.html"
+      },
+      {
+        "source": "/Images/**",
+        "destination": "/Fotos/:image"
       }
-    ]
+    ],
+    "predeploy" : [ "npm run build" ] 
   }
 }
