@@ -21,9 +21,3 @@
         columns: 2;
     }
 }
-
-@media (max-width: 760px) {
-    .container {
-        columns: 1;
-    }
-}

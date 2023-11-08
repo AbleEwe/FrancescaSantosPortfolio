@@ -161,16 +161,23 @@ button {
 @media (max-width: 600px) {
   .contacto {
     width: 90%; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media (max-width: 600px) {
   .message {
-    font-size: 15px;
+    width: 100%;
+    margin-bottom: 40px;
   }
   .home-wrap h1 {
     font-size: 2.5rem;
-}
+  }
+  form {
+    width: 90%;
+  }
 }
 
 @media (max-width: 1000px) {

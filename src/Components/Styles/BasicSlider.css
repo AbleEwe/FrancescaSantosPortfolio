@@ -13,3 +13,9 @@
     width: 100vw;
     z-index: 1;
 }
+
+@media (max-width: 600px) {
+    .slide-item {
+        height: 50vh;
+    }
+  }

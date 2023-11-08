@@ -84,6 +84,12 @@ nav .menu span{
         width: 100%;
         margin-bottom: 0.25rem;
         background-color: var(--rosita);
+        transition: .5s ease;
+    }
+    
+    .transparent-bg {
+        background-color: transparent;
+        transition: .5s ease;
     }
 
     nav ul.open{
